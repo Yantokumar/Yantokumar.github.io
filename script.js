@@ -1,7 +1,16 @@
 const questions = [
-  { question: "What is the capital of France?", options: ["Paris", "Berlin", "Madrid", "Rome"], answer: "Paris" },
-  { question: "Which planet is known as the Red Planet?", options: ["Earth", "Mars", "Jupiter", "Venus"], answer: "Mars" },
-  { question: "Who wrote 'Hamlet'?", options: ["Charles Dickens", "William Shakespeare", "J.K. Rowling", "Mark Twain"], answer: "William Shakespeare" },
+  { question: "Apa nama ilmiah dari nyamuk?", options: ["Culicidae", "Berlin", "sativa", "broncos"], answer: "Culicidae" },
+  { question: "Apa ibu kota Indonesia?", options: ["Jakarta", "Jawa", "Medan", "palembang"], answer: "Jakarta" },
+  { question: "Berapakah jumlah bulan di planet Mars?", options: ["3", "5", "2", "6"], answer: "2" },
+  { question: "Siapa penemu lampu pijar?", options: ["Albert Einstein", "Alexander Graham Bell", "Thomas Edison", "Nikola Tesla"], answer: "Thomas Edison" },
+  { question: "Negara manakah yang dikenal sebagai Negeri Matahari Terbit?", options: ["Korea Selatan", "Tiongkok", "Jepang", "India"], answer: "Jepang" },
+  { question: "Apakah bahasa utama yang digunakan di Brasil?", options: ["Spanyol", "Portugis", "Prancis", "Inggris"], answer: "Portugis" },
+  { question: "Apakah simbol kimia dari oksigen?", options: ["O", "O2", "H", "C"], answer: "O" },
+  { question: "Di manakah lokasi terluar dari negara Australia?", options: ["Sydney", "Melbourne", "Darwin", "Perth"], answer: "Perth" },
+  { question: "Apakah benda langit yang paling dekat dengan bumi?", options: ["Matahari", "Bulan", "Venus", "Mars"], answer: "Bulan" },
+  { question: "Ikan apa yang menjadi icon Batanghari?", options: ["Ikan es", "Ikan betok", "Ikan tapa malenggang", "Ikan gabus"], answer: "Ikan tapa malenggang" },
+  { question: "pada 2024 batanghari ulangtahun ke?", options: ["77", "79", "80", "76"], answer: "76" },
+  
 ];
 
 let playerName = "";
@@ -110,4 +119,4 @@ function displayLeaderboard() {
   });
 }
 
-// Tombol restart untuk meng
+// Tombol restart untuk mengulang
